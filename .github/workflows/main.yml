@@ -41,15 +41,6 @@ jobs:
       
       - name: Cloudflare Gateway Zero Trust 
         run: python -m src run
-import argparse
-from src.domains import DomainConverter
-from src.cloudflare import (
-    get_lists, get_rules, create_list, update_list, create_rule, 
-    update_rule, delete_list, delete_rule, get_list_items
-)
-from src import utils, info, error, silent_error, PREFIX
-
-
 class CloudflareManager:
     def __init__(self, prefix):
         self.list_name = f"[{prefix}]"
