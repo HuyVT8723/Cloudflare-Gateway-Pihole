@@ -4,7 +4,7 @@ from sys import exit
 from src.colorlog import logger
 
 # Constants
-PREFIX = "AdBlock_DNS_Filters"
+PREFIX = "AdBlock-DNS-Filters"
 CACHE_FILE = "cloudflare_cache.json"
 
 # Read .env variables 
