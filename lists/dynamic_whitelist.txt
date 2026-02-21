@@ -3,4 +3,7 @@ api-js.datadome.co
 nextdns.io
 dns.nextdns.io
 *.nextdns.io
-smarttv-api-vtvgo.vtvdigital.vn
+*smarttv-api-vtvgo.vtvdigital.vn
+*.vtvdigital.vn
+*.vtvgo.vn
+*.vcdn.vn
